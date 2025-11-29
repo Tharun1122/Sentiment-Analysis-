@@ -1,4 +1,0 @@
-# Sentiment-Analysis-
-This application is a real-time sentiment analysis dashboard built with Streamlit. Users can enter any text, and the system instantly evaluates its emotional tone using a pretrained Hugging Face transformer model. The analyzer classifies the text as Positive, Neutral, or Negative, while also calculating confidence scores and displaying a breakdown of sentiment percentages.
-
-To make the experience more interactive, the app features animated visualizations, including a dynamic gauge meter and a sentiment pie chart. It maintains a full analysis history for easy comparison and debugging. The model automatically detects whether a CUDA-enabled GPU is available and accelerates inference accordingly, falling back to CPU when needed. Logging statements throughout the code provide clear insight into internal behavior, helping you debug and understand each step of the sentiment analysis process.
